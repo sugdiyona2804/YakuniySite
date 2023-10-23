@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  nav {
+    background: rgb(255, 0, 179);
+    height: 80px;
+    position: sticky;
+    left: 0;
+    top: 0;
+  }
+
+  nav .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .container .logo {
+    font-size: 24px;
+    color: blueviolet;
+  }
+  
+  nav .container ul {
+    display: flex;
+    gap: 30px;
+  }
+  
+  nav .container ul li a {
+    color: blueviolet;
+  }
+  
+  nav .container button {
+    padding: 10px;
+    font-size: 18px;
+    background: orangered;
+    border: none;
+    border-radius: 10px 0;
+  }
+  
+  nav .container button:hover {
+    background: red;
+    border-radius: 10px;
+  }
+  
+  nav .container button a {
+    color: white;
+  }
+  
+  .first {
+    height: 100vh;
+   background-repeat: no-repeat ;
+    background-image: url(img/0808-2.jpg);
+    background-size: cover;
+    
+  }
+  
+  .first .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .first .container .box {
+    text-align: center;
+    max-width: 700px;
+  }
+  
+  .first .container .box h1 {
+    font-size: 40px;
+  }
+  
+  .first .container .box p {
+    color: rgb(152, 152, 152);
+    font-weight: 300;
+    font-size: 19px;
+    margin: 20px 0;
+  }
+  
+  .first .container .box h1 {
+    color: blueviolet;
+    font-size: 40px;
+  }
+  
+  .first .container button {
+    padding: 10px;
+    font-size: 18px;
+    background: orangered;
+    border: none;
+    border-radius: 10px 0;
+  }
+  
+  .first .container button:hover {
+    background: red;
+    border-radius: 10px;
+  }
+  
+  .first .container button a {
+    color: white;
+  }
+  
+  .second {
+    padding: 80px 0;
+    /* margin: 80px 0; */
+    background:rgb(248, 155, 220);
+  }
+  
+  .second h1 {
+
+    font-weight: 500;
+    color: blueviolet;
+    font-size: 30px;
+  }
+  
+  .second .container {
+
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+  }
+  
+  .second .container .left {
+
+    width: calc(100% / 2 - 30px);
+    text-align: start;
+  }
+  
+  .second .container .left p {
+
+    margin: 20px 0;
+    color: grey;
+  }
+  
+  .second .container .left button {
+
+    padding: 10px;
+    font-size: 18px;
+    background: orangered;
+    border: none;
+    border-radius: 10px 0;
+  }
+  
+  .second .container .left button:hover {
+
+    background: red;
+    border-radius: 10px;
+  }
+  
+  .second .container .left button a {
+
+    color: white;
+  }
+  .second .container img {
+
+    width: calc(100% / 3 - 30px);
+    border-radius: 10px;
+  }
+  
+  .third {
+    margin: 60px 0;
+    background:rgb(248, 155, 220); 
+    
+  }
+  
+  .third h1 {
+    font-weight: 500;
+    color: blueviolet;
+    font-size: 30px;
+  }
+  
+  .third .container {
+    
+    padding: 50px 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .third .container .card {
+    width: calc(100% / 4 - 20px);
+    border: 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .third .container .card picture img {
+    width: 100%;
+  }
+  
+  .third .container .card .text-field {
+    padding: 10px;
+  }
+  
+  .third .container .card .text-field .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+  }
+  
+  .third .container .card .text-field button {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 0;
+    background: orangered;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .third .container .card .text-field button a {
+    color: white;
+  }
+  
+  footer {
+    height: 120px;
+    background: rgb(255, 0, 179);
+  }
+  
+  footer .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  footer .container h3 {
+    font-size: 14px;
+    color: white;
+  }
+  
+  footer .container i {
+    font-size: 30px;
+    color: white;
+  }
+  @media screen {
+    
+    
+  }
